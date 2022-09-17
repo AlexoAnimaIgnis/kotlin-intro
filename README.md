@@ -37,3 +37,9 @@ In Kotlin, If Else block is an expression, hence we can assign it to a variable 
 ![img.png](img.png)
 Anytime you add a last statement, that will be the return value/type
 ![img_1.png](img_1.png)
+
+
+Loop and Range
+
+How to create a range value in Kotlin?
+![img_2.png](img_2.png)
