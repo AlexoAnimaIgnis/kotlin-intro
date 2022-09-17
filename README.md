@@ -10,7 +10,8 @@ Why Kotlin?
 - Interoperable with java
 
 Var and Val
-- Var
+- Var are variables in Kotlin that are mutable
+- Val are variables in Kotlin that are immutable
 
 
 Variable types in Kotlin
@@ -21,3 +22,11 @@ Variable types in Kotlin
   - Floating Types : Float, Double
   - Character Type : Char
   - Boolean Type : Boolean
+
+Kotlin and Java have Type inference
+- meaning it can identify which type of variable is being assigned
+  - in intellij you can see a prompt of "redundant type"
+
+String interpolation or templates
+- can use by using $ + name of variable example: (println("Course: $course"))
+- can use function execution by wrapping it in a curly braces: ${course.length}
