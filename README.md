@@ -30,3 +30,10 @@ Kotlin and Java have Type inference
 String interpolation or templates
 - can use by using $ + name of variable example: (println("Course: $course"))
 - can use function execution by wrapping it in a curly braces: ${course.length}
+
+Conditionals - If and When Block
+
+In Kotlin, If Else block is an expression, hence we can assign it to a variable and expect a result
+![img.png](img.png)
+Anytime you add a last statement, that will be the return value/type
+![img_1.png](img_1.png)
