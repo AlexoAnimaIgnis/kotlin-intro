@@ -43,3 +43,6 @@ Loop and Range
 
 How to create a range value in Kotlin?
 ![img_2.png](img_2.png)
+
+Creating a label in Kotlin
+![img_3.png](img_3.png)
