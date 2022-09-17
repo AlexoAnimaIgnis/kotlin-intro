@@ -12,4 +12,26 @@ fun main() {
     }
 
     println("result: $result")
+
+    //1 -> GOLD, 2 -> SILVER, 3 -> BRONZE
+    val position = 2
+    val medal = if(position == 1) {
+        "GOLD"
+    } else if(position == 2) {
+        "SILVER"
+    } else if(position == 3) {
+        "BRONZE"
+    } else {
+        "NO MEDAL"
+    }
+
+    val position_when = 1
+    val medal_when = when(position_when) {
+        1 -> "GOLD"
+        2 -> "SILVER"
+        3 -> "BRONZE"
+        else -> "NO MEDAL"
+    }
+
+    print(medal_when)
 }
