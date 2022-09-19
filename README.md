@@ -94,3 +94,8 @@ Note: New keyword is not needed
 
 Constructors
 are methods we use in OOP to create object with initial values
+
+### Secondary Constructor
+
+Alternative way of defining constructors by using constructor keyword
+this() call to the actual class is mandatory
