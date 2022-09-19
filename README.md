@@ -91,3 +91,6 @@ Properties that does not belong to class are called top level properties
 
 Classes are blueprint for creating objects
 Note: New keyword is not needed
+
+Constructors
+are methods we use in OOP to create object with initial values
