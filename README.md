@@ -99,3 +99,12 @@ are methods we use in OOP to create object with initial values
 
 Alternative way of defining constructors by using constructor keyword
 this() call to the actual class is mandatory
+
+### Initializer code using init block
+
+init code block can be used to run some initialization logic during instance creation
+
+example:
+init {
+  println("iniside init block")
+}
