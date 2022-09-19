@@ -78,3 +78,11 @@ Named Arguments
 
 1. Caller can invoke the function using the variable name
 2. Caller can invoke the function using the name of the function arguments, in no particular order
+
+### Top Level Functions
+
+Functions that does not belong to a class are top-level functions
+- in Java, functions can only be part of class
+- In java app, there are classes that has some static methods which holds common logic, shared across the app
+
+Properties that does not belong to class are called top level properties
