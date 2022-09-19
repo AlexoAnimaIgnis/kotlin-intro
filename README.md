@@ -108,3 +108,16 @@ example:
 init {
   println("iniside init block")
 }
+
+### Data class
+
+Classes that holds data can be categorized as data classes
+- DTOs domain classes and value objects are under this category
+- In Java, these are known as Beans
+- by adding the "data" keyword, it automatically generates the equals(), hashcode() and toStringI() methods
+- data class must have at least one primary constructor parameter
+
+Usage:
+- Data classes are primarily for classes thats going to behave as a data container
+- automatically generates methods such as equality(), toString() and hashcode()
+- easy to create a clone by using clone()
