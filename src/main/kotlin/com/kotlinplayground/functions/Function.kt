@@ -33,4 +33,5 @@ fun main() {
 
     printPersonDetails("Alexo", "a@gmail.com", LocalDate.parse("2000-12-26"))
     printPersonDetails("Alexo")
+    printPersonDetails(name = "Alexo", dob = LocalDate.parse("2000-12-26"))
 }
