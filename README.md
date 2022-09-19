@@ -67,4 +67,14 @@ fun addition_2(x : Int, y : Int) = x + y
 UNIT is a type that means it will not return anything
 Unit corresponds to VOID of java
 
+### Default Value Parameters and Named Arguments
 
+Provides a value to a function when its not passed by the caller
+
+i.e
+fun printPersonDetails(name: String, email: String = "", dob: LocalDate = LocalDate.now())
+
+Named Arguments
+
+1. Caller can invoke the function using the variable name
+2. Caller can invoke the function using the name of the function arguments, in no particular order
