@@ -86,3 +86,8 @@ Functions that does not belong to a class are top-level functions
 - In java app, there are classes that has some static methods which holds common logic, shared across the app
 
 Properties that does not belong to class are called top level properties
+
+### Class
+
+Classes are blueprint for creating objects
+Note: New keyword is not needed
