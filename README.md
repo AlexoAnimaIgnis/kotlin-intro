@@ -121,3 +121,19 @@ Usage:
 - Data classes are primarily for classes thats going to behave as a data container
 - automatically generates methods such as equality(), toString() and hashcode()
 - easy to create a clone by using clone()
+
+
+### Inheritance
+
+Inheritance is supported in Kotlin
+Kotlin Concepts:
+- Any is the superclass for any class in Kotlin
+  - Object class in java
+- All the classes in Kotlin are final
+  - Extending classes are not allowed by default
+  - Allows inheritance  only when "open" modifier is used
+- Multiple inheritance of classes is not allowed
+
+Functions can also be overridden
+- Mark the function to be overridden with open modifier
+- Use the keyword "override" for the function that will override the super class function
