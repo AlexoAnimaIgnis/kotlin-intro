@@ -137,3 +137,9 @@ Kotlin Concepts:
 Functions can also be overridden
 - Mark the function to be overridden with open modifier
 - Use the keyword "override" for the function that will override the super class function
+
+Object keyword
+- allows us to create a class and an instance of the class at the same time
+- equivalent to a singleton pattern in java
+- Using the class with object keyword, just use the name of the class and invoke the method you need to use
+- Limitations: You cannot inject constructor arguments to object classes
