@@ -143,3 +143,8 @@ Object keyword
 - equivalent to a singleton pattern in java
 - Using the class with object keyword, just use the name of the class and invoke the method you need to use
 - Limitations: You cannot inject constructor arguments to object classes
+
+companion object
+- kotlin does not have the support for the static keyword 
+- companion object can be used to introduce static functionalities that are tied to a class
+- 
